@@ -1,0 +1,31 @@
+{  
+    "forge_marker":1,
+    "defaults":{  
+        "textures":{  
+            "all":"mobvats:blocks/oreYellorite"
+        },
+        "model":"cube_all"
+    },
+    "variants":{  
+        "ore":{  
+            "yellorite":{  
+                "textures":{
+					"all":"mobvats:blocks/oreYellorite"
+                }
+            },
+			 "anglesite":{  
+                "textures":{
+					"all":"mobvats:blocks/oreAnglesite"
+                }
+            },
+			 "benitoite":{  
+                "textures":{
+					"all":"mobvats:blocks/oreBenitoite"
+                }
+            }
+        },
+        "inventory":{  
+            "transform":"forge:default-block"
+        }
+    }
+}

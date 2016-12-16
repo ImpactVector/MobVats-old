@@ -1,0 +1,84 @@
+{
+  "variants": {
+    "facings=none": { "model": "mobvats:turbine/legacy_glass_c0" },
+
+    "facings=face_u": { "model": "mobvats:turbine/legacy_glass_c1" },
+    "facings=face_d": { "model": "mobvats:turbine/legacy_glass_c1", "x": 180 },
+    "facings=face_n": { "model": "mobvats:turbine/legacy_glass_c1", "x": 90 },
+    "facings=face_s": { "model": "mobvats:turbine/legacy_glass_c1", "x": -90 },
+    "facings=face_w": { "model": "mobvats:turbine/legacy_glass_c1", "x": 90, "y": -90 },
+    "facings=face_e": { "model": "mobvats:turbine/legacy_glass_c1", "x": 90, "y": 90 },
+
+    "facings=angle_eu": { "model": "mobvats:turbine/legacy_glass_c2angle" },
+    "facings=angle_uw": { "model": "mobvats:turbine/legacy_glass_c2angle", "y": 180 },
+    "facings=angle_de": { "model": "mobvats:turbine/legacy_glass_c2angle", "x": 180 },
+    "facings=angle_dw": { "model": "mobvats:turbine/legacy_glass_c2angle", "x": 180, "y": 180 },
+    "facings=angle_nu": { "model": "mobvats:turbine/legacy_glass_c2angle", "y": -90 },
+    "facings=angle_su": { "model": "mobvats:turbine/legacy_glass_c2angle", "y": 90 },
+    "facings=angle_dn": { "model": "mobvats:turbine/legacy_glass_c2angle", "x": 180, "y": -90 },
+    "facings=angle_ds": { "model": "mobvats:turbine/legacy_glass_c2angle", "x": 180, "y": 90 },
+    "facings=angle_en": { "model": "mobvats:turbine/legacy_glass_c2angle", "x": 90 },
+    "facings=angle_es": { "model": "mobvats:turbine/legacy_glass_c2angle", "x": -90 },
+    "facings=angle_nw": { "model": "mobvats:turbine/legacy_glass_c2angle", "x": 90, "y": -90 },
+    "facings=angle_sw": { "model": "mobvats:turbine/legacy_glass_c2angle", "x": -90, "y": 90 },
+
+    "facings=opposite_du": { "model": "mobvats:turbine/legacy_glass_c2" },
+    "facings=opposite_ew": { "model": "mobvats:turbine/legacy_glass_c2", "x": -90, "y": 90  },
+    "facings=opposite_ns": { "model": "mobvats:turbine/legacy_glass_c2", "x": -90 },
+
+    "facings=cshape_duw": { "model": "mobvats:turbine/legacy_glass_c3T1" },
+    "facings=cshape_dsu": { "model": "mobvats:turbine/legacy_glass_c3T1", "y": -90 },
+    "facings=cshape_deu": { "model": "mobvats:turbine/legacy_glass_c3T1", "y": -180 },
+    "facings=cshape_dnu": { "model": "mobvats:turbine/legacy_glass_c3T1", "y": 90 },
+    "facings=cshape_nsw": { "model": "mobvats:turbine/legacy_glass_c3T1", "x": -90 },
+    "facings=cshape_ens": { "model": "mobvats:turbine/legacy_glass_c3T1", "x": -90, "y": 180 },
+
+    "facings=cshape_euw": { "model": "mobvats:turbine/legacy_glass_c3T2" },
+    "facings=cshape_esw": { "model": "mobvats:turbine/legacy_glass_c3T2", "x": -90 },
+    "facings=cshape_dew": { "model": "mobvats:turbine/legacy_glass_c3T2", "x": 180 },
+    "facings=cshape_enw": { "model": "mobvats:turbine/legacy_glass_c3T2", "x": 90 },
+    "facings=cshape_nsu": { "model": "mobvats:turbine/legacy_glass_c3T2", "y": 90 },
+    "facings=cshape_dns": { "model": "mobvats:turbine/legacy_glass_c3T2", "x": 180, "y": 90 },
+
+    "facings=corner_esu": { "model": "mobvats:turbine/legacy_glass_c3angle" },
+    "facings=corner_suw": { "model": "mobvats:turbine/legacy_glass_c3angle", "y": 90 },
+    "facings=corner_enu": { "model": "mobvats:turbine/legacy_glass_c3angle", "x": 90 },
+    "facings=corner_den": { "model": "mobvats:turbine/legacy_glass_c3angle", "x": 180 },
+    "facings=corner_des": { "model": "mobvats:turbine/legacy_glass_c3angle", "x": 270 },
+
+    "facings=corner_dsw": { "model": "mobvats:turbine/legacy_glass_c3angle", "x": 180, "y": -180 },
+    "facings=corner_dnw": { "model": "mobvats:turbine/legacy_glass_c3angle", "x": -90, "y": -180 },
+    "facings=corner_nuw": { "model": "mobvats:turbine/legacy_glass_c3angle", "x": 90, "y": -90 },
+
+    "facings=pipe_deuw": { "model": "mobvats:turbine/legacy_glass_c4X" },
+    "facings=pipe_ensw": { "model": "mobvats:turbine/legacy_glass_c4X", "x": 90 },
+    "facings=pipe_dnsu": { "model": "mobvats:turbine/legacy_glass_c4X", "y": 90 },
+
+    "facings=misc_dnuw": { "model": "mobvats:turbine/legacy_glass_c4angle" },
+    "facings=misc_dnsw": { "model": "mobvats:turbine/legacy_glass_c4angle", "x": 90 },
+    "facings=misc_nsuw": { "model": "mobvats:turbine/legacy_glass_c4angle", "x": -90 },
+    "facings=misc_dsuw": { "model": "mobvats:turbine/legacy_glass_c4angle", "y": -90 },
+    "facings=misc_denu": { "model": "mobvats:turbine/legacy_glass_c4angle", "y": 90 },
+    "facings=misc_desu": { "model": "mobvats:turbine/legacy_glass_c4angle", "y": 180 },
+    "facings=misc_ensu": { "model": "mobvats:turbine/legacy_glass_c4angle", "x": -90, "y": 180 },
+    "facings=misc_dens": { "model": "mobvats:turbine/legacy_glass_c4angle", "x": 90, "y": 180 },
+    "facings=misc_esuw": { "model": "mobvats:turbine/legacy_glass_c4angle", "x": -90, "y": -90 },
+    "facings=misc_desw": { "model": "mobvats:turbine/legacy_glass_c4angle", "x": -270, "y": -90 },
+    "facings=misc_enuw": { "model": "mobvats:turbine/legacy_glass_c4angle", "x": -90, "y": 90 },
+    "facings=misc_denw": { "model": "mobvats:turbine/legacy_glass_c4angle", "x": -270, "y": -270 },
+
+    "facings=pipeend_densw": { "model": "mobvats:turbine/legacy_glass_c5-6" },
+    "facings=pipeend_desuw": { "model": "mobvats:turbine/legacy_glass_c5-6" },
+    "facings=pipeend_dnsuw": { "model": "mobvats:turbine/legacy_glass_c5-6" },
+    "facings=pipeend_densu": { "model": "mobvats:turbine/legacy_glass_c5-6" },
+    "facings=pipeend_denuw": { "model": "mobvats:turbine/legacy_glass_c5-6" },
+    "facings=pipeend_ensuw": { "model": "mobvats:turbine/legacy_glass_c5-6" },
+
+    "facings=all": { "model": "mobvats:turbine/legacy_glass_c5-6" },
+	
+	"inventory": {
+      "transform": "forge:default-block",
+      "model": "mobvats:turbine/legacy_glass_c0"
+    }
+  }
+}

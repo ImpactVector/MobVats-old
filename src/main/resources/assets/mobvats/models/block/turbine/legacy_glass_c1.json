@@ -1,0 +1,13 @@
+{
+    "__comment": "Model file for a single connected side (rotated per state, default connected on the 'up' facing)",
+	"parent": "block/cube",
+    "textures": {
+		"particle": "mobvats:blocks/turbine/legacy/glass.0",
+        "down": "mobvats:blocks/turbine/legacy/glass.0",
+		"up": "mobvats:blocks/turbine/legacy/glass.15",
+		"north": "mobvats:blocks/turbine/legacy/glass.1",
+		"south": "mobvats:blocks/turbine/legacy/glass.1",
+		"west": "mobvats:blocks/turbine/legacy/glass.1",
+		"east": "mobvats:blocks/turbine/legacy/glass.1"
+    }
+}

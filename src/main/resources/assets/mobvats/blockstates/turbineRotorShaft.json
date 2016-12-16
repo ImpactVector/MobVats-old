@@ -1,0 +1,75 @@
+{  
+    "forge_marker":1,
+    "defaults":{
+      "model":"mobvats:turbine/rotor_shaft_z_4c"
+    },
+    "variants":{  
+		"tier":{  
+            "legacy":{
+            },
+            "basic":{ 
+            }
+        },
+		"state":{
+            "hidden": {
+                "model": "mobvats:transparentBlock"
+            },
+			"y_noblades":{
+				"model":"mobvats:turbine/rotor_shaft_z_0c",
+                "x": -90
+            },
+            "y_x":{
+				"model":"mobvats:turbine/rotor_shaft_z_2c",
+                "x": -90
+            },
+            "y_z":{
+				"model":"mobvats:turbine/rotor_shaft_z_2c",
+                "x": -90,
+				"y": 90
+            },
+            "y_xz":{
+				"model":"mobvats:turbine/rotor_shaft_z_4c",
+                "x": -90
+            },
+            "x_noblades":{
+				"model":"mobvats:turbine/rotor_shaft_z_0c",
+				"x": 0,
+				"y": -90
+            },
+            "x_y":{
+				"model":"mobvats:turbine/rotor_shaft_z_2cy",
+				"x": 0,
+				"y": 90
+            },
+            "x_z":{
+				"model":"mobvats:turbine/rotor_shaft_z_2c",
+				"x": 0,
+				"y": -90
+            },			
+            "x_yz":{
+				"model":"mobvats:turbine/rotor_shaft_z_4c",
+				"x": 0,
+				"y": -90
+            },
+            "z_noblades":{
+				"model":"mobvats:turbine/rotor_shaft_z_0c",
+				"x": 0
+            },
+            "z_y":{
+				"model":"mobvats:turbine/rotor_shaft_z_2cy",
+				"x": 0
+            },
+            "z_x":{
+				"model":"mobvats:turbine/rotor_shaft_z_2c",
+				"x": 0
+            },
+            "z_xy":{
+				"model":"mobvats:turbine/rotor_shaft_z_4c"
+            }
+		},
+        "inventory":{
+            "model":"mobvats:turbine/rotor_shaft_z_4c",
+            "transform":"forge:default-block"
+        }
+    }
+}

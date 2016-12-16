@@ -1,0 +1,61 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "mobvats:blocks/homunculusFlesh",
+      "particle": "#all",
+      "down": "#all",
+      "up": "#all",
+      "north": "#all",
+      "south": "#all",
+      "west": "#all",
+      "east": "#all"
+    },
+    "model": "cube"
+  },
+  "variants": {
+    "tier": {
+      "legacy": {
+      },
+      "basic": {
+      }
+    },
+    "afstate": {
+      "disassembled": {
+      },
+      "assemblednorth": {
+        "textures": {
+          "north": "#all"
+        }
+      },
+      "assembledsouth": {
+        "textures": {
+          "south": "#all"
+        }
+      },
+      "assembledwest": {
+        "textures": {
+          "west": "#all"
+        }
+      },
+      "assembledeast": {
+        "textures": {
+          "east": "#all"
+        }
+      },
+      "assembledup": {
+        "textures": {
+          "up": "#all"
+        }
+      },
+      "assembleddown": {
+        "textures": {
+          "down": "#all"
+        }
+      }
+    },
+    "inventory": {
+      "transform": "forge:default-item"
+    }
+  }
+}

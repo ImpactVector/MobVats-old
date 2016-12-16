@@ -1,0 +1,13 @@
+{
+    "__comment": "Model file for four connected sides at an angle (rotated per state, default connected on the 'up/down/west/nort' facing)",
+	"parent": "block/cube",
+    "textures": {
+		"particle": "mobvats:blocks/turbine/basic/glass.0",
+        "down": "mobvats:blocks/turbine/basic/glass.15",
+		"up": "mobvats:blocks/turbine/basic/glass.15",
+		"north": "mobvats:blocks/turbine/basic/glass.15",
+		"south": "mobvats:blocks/turbine/basic/glass.7",
+		"west": "mobvats:blocks/turbine/basic/glass.15",
+		"east": "mobvats:blocks/turbine/basic/glass.11"
+    }
+}

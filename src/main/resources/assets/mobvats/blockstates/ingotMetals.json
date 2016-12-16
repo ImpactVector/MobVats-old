@@ -1,0 +1,41 @@
+{  
+    "forge_marker":1,
+    "defaults": {
+		"model": "builtin/generated",
+		"transform": "forge:default-item"
+	},
+    "variants":{  
+        "metal":{  
+            "yellorium":{  
+                "textures":{
+					"layer0":"mobvats:items/ingotYellorium"
+                }
+            },
+			"cyanite":{  
+                "textures":{
+					"layer0":"mobvats:items/ingotCyanite"
+                }
+            },
+			"graphite":{  
+                "textures":{
+					"layer0":"mobvats:items/ingotGraphite"
+                }
+            },
+			"blutonium":{  
+                "textures":{
+					"layer0":"mobvats:items/ingotBlutonium"
+                }
+            },
+			"ludicrite":{  
+                "textures":{
+					"layer0":"mobvats:items/ingotLudicrite"
+                }
+            },
+			"steel":{  
+                "textures":{
+					"layer0":"mobvats:items/ingotSteel"
+                }
+            }			
+        }
+    }
+}
