@@ -41,8 +41,8 @@ minecraft {
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
 }
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
 
@@ -55,12 +55,24 @@ repositories {
         name "Tesla"
         url "http://maven.epoxide.xyz/"
     }
+
+    maven { // The repo from which to get waila
+        name "Mobius Repo"
+        url "http://mobiusstrip.eu/maven"
+    }
+
+    maven { // TOP
+        name 'tterrag maven'
+        url "http://maven.tterrag.com/"
+    }
 }
 
 dependencies {
 
     compile group: "it.zerono.mods.zerocore", name: "zerocore", version: "${config.zerocore_version}"
     deobfCompile group: "net.darkhax.tesla", name: "Tesla", version: "${config.tesla_version}"
+    deobfCompile "mcp.mobius.waila:Waila:1.7.0-B3_1.9.4"
+    deobfCompile "mcjty.theoneprobe:TheOneProbe:1.10-1.3.3-41"
 }
 
 processResources
@@ -85,7 +97,7 @@ processResources
 
 compileJava.doFirst {
 
-    File file = new File(projectDir, 'build/sources/main/java/erogenousbeef/bigreactors/common/BigReactors.java')
+    File file = new File(projectDir, 'build/sources/main/java/erogenousbeef/bigreactors/common/MobVats.java')
     String source = file.getText('UTF-8')
             .replaceAll('version = "0.0.0.0"', 'version = "' + project.version + '"')
             .replaceAll('acceptedMinecraftVersions = ""', 'acceptedMinecraftVersions = "' + config.minecraft_version + '"')
